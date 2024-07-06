@@ -10,6 +10,7 @@
       background-color: #f0f0f0;
       margin: 0;
       padding: 0;
+      text-align: center; /* Center align for the image box */
     }
     .menu {
       background-color: #333;
@@ -37,13 +38,20 @@
     .menu ul li a:hover {
       color: #99ccff;
     }
+    .image-box {
+      margin-top: 20px;
+    }
+    .image-box img {
+      max-width: 100%;
+      height: auto;
+    }
   </style>
 </head>
 <body>
 
 <div class="menu">
   <div class="logo">
-    <img src="homestuck_logo.png" alt="Homestuck Logo" height="40">
+    <img src="path_to_your_logo_image.png" alt="Homestuck Logo" height="40">
   </div>
   <ul>
     <li><a href="#">ARCHIVE</a></li>
@@ -54,6 +62,10 @@
     <li><a href="#">AUTHORS</a></li>
     <li><a href="#">RSS</a></li>
   </ul>
+</div>
+
+<div class="image-box">
+  <img src="path_to_your_image.png" alt="Homestuck Image Box">
 </div>
 
 </body>
