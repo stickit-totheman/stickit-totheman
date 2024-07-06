@@ -1,72 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homestuck Comic Menu</title>
-  <style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery</title>
+<style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      margin: 0;
-      padding: 0;
-      text-align: center; /* Center align for the image box */
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
     }
-    .menu {
-      background-color: #333;
-      color: #fff;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 20px;
+    .container {
+        position: relative;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
     }
-    .menu ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
+    .image {
+        max-width: 100%;
+        height: auto;
     }
-    .menu ul li {
-      margin-right: 20px;
+    .arrow {
+        position: absolute;
+        bottom: 10px;
+        width: 40px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        font-size: 24px;
+        line-height: 40px;
+        cursor: pointer;
     }
-    .menu ul li a {
-      color: #fff;
-      text-decoration: none;
-      font-size: 16px;
-      transition: color 0.3s;
+    .arrow.left {
+        left: 10px;
     }
-    .menu ul li a:hover {
-      color: #99ccff;
+    .arrow.right {
+        right: 10px;
     }
-    .image-box {
-      margin-top: 20px;
+    .logo {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 100px;
+        height: auto;
     }
-    .image-box img {
-      max-width: 100%;
-      height: auto;
-    }
-  </style>
+</style>
 </head>
 <body>
-
-<div class="menu">
-  <div class="logo">
-    <img src="path_to_your_logo_image.png" alt="Homestuck Logo" height="40">
-  </div>
-  <ul>
-    <li><a href="#">ARCHIVE</a></li>
-    <li><a href="#">BEGIN READING</a></li>
-    <li><a href="#">LATEST UPDATE</a></li>
-    <li><a href="#">SUGGESTIONS</a></li>
-    <li><a href="#">CAST</a></li>
-    <li><a href="#">AUTHORS</a></li>
-    <li><a href="#">RSS</a></li>
-  </ul>
+<div class="container">
+    <img class="image" src="big-image.jpg" alt="Big Image">
+    <img class="logo" src="logo.png" alt="Logo">
+    <div class="arrow left">&#9664;</div>
+    <div class="arrow right">&#9654;</div>
 </div>
-
-<div class="image-box">
-  <img src="path_to_your_image.png" alt="Homestuck Image Box">
-</div>
-
 </body>
 </html>
