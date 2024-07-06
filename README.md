@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -24,6 +24,6 @@
 </style>
 </head>
 <body>
-  <div class="huge-text">hi</div>
+  <div class="huge-text">i am gonna touch you</div>
 </body>
 </html>
