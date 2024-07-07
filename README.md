@@ -24,6 +24,6 @@
 </style>
 </head>
 <body>
-  <div class="huge-text">𝓷𝓲𝓰𝓰𝓪</div>
+  <div class="huge-text">site is temporally down due to the weight of dony crashing the site</div>
 </body>
 </html>
